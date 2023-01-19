@@ -1,0 +1,232 @@
+*{
+    font-family: "Work Sans";
+    margin: 0;
+}
+section{
+    margin-bottom: 100px;
+}
+/* banner styles */
+.banner{
+    background-color: rgb(250, 243, 243);
+    height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.banner-title h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top:50px;
+    margin-left: 100px;
+   
+}
+.banner-nav{
+    margin-right: 100px;
+    margin-top: 65px;
+}
+.banner-nav a{
+text-decoration: none;
+color: black;
+padding: 20px;
+font-size: 16px;
+font-weight: 500;
+}
+.banner2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+   
+}
+.banner-title2{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.title2-info{
+    font-size: 16px;
+    color: #727272;
+}
+.orange-btn{
+    width: 150px;
+    height: 44px;
+    border-radius: 5px;
+    border: 0;
+    background-color: orange;
+    color: white;   
+}
+.banner-image{
+    text-align: center;
+}
+.banner-image img{
+    height: 100%;
+    width: 50%;
+}
+/* feature1 styles */
+.feature1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.feature1-img{
+    display: grid;
+   grid-template-columns: repeat(2,200px);
+   /* justify-content: center; */
+   /* align-items: center; */
+   grid-row-gap: 10px;
+   grid-column-gap: 10px;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.feature1-description{
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 430px;
+    padding-right: 200px;
+}
+.feature1-title{
+    margin-bottom: 10px;
+}
+
+.feature1-description .gray{
+    color: #727272;
+}
+.feature1-description .orange{
+    color: orange;
+}
+.feature1-info{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+/* feature2 styles */
+.feature2{
+   
+
+}
+.main1{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.main2{
+ height: 400px;
+    width: 400px;   
+}
+.main-div{
+    margin-bottom: 50px;
+}
+.main-div-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.sub-div{
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+    margin-bottom: 30px;
+}
+.sub-title{
+    margin-bottom: 10px;
+}
+.feature2 .img2{
+    background-image: url(../images/architect.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 400px;
+    background-size: 100%;
+}
+.orange-btn2{
+    width: 180px;
+    height: 100px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: orange;
+    color: white; 
+    position: relative;
+    top: 50%;
+}
+.orange-btn2 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+/* some facts styles */
+.some-fact{
+    position: relative;
+    top: -300px;
+    margin-bottom: 50px;}
+    .fact-description{
+margin-left: 150px;
+margin-bottom: 100px;
+    }
+    .fact-title{
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .some-fact2{
+        display: flex;
+        gap: 100px;
+        margin-left: 200px;
+    }
+    .some-fact2-div{
+        border: 1px solid red;
+        border-radius: 5px;
+        padding: 50px;
+    }
+    .some-fact2-div img h1 {
+        position:relative;
+        left: 10px;
+    }
+    /* sponsor styles */
+    .sponsor{
+        position: relative;
+        top: -150px;
+    }
+    .sponsor-description{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .sponsor-title{
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .sponsor-icon{
+        display: flex;
+        gap: 70px;
+        margin-left: 200px;
+        flex-direction: row;
+    }
+    .sponsor-icon div img{
+        height: 100%;
+        width: 100%;
+      mix-blend-mode: luminosity;
+    }
+    /* footer styles */
+    .last{
+        background-color: rgb(250, 243, 243);
+        text-align: center;
+        position: relative;
+        top: -100px;
+        padding: 20px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
